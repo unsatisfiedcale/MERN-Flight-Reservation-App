@@ -72,14 +72,14 @@ Aşağıda projede kullanılan 16 resmi görebilirsiniz:
      cd client
      npm start
      ```
-     Bu komut, React uygulamanızı geliştirme modunda başlatır ve [http://localhost:5001](http://localhost:5001) adresinde çalışır.
+     Bu komut, React uygulamanızı geliştirme modunda başlatır ve [http://localhost:3000](http://localhost:3000) adresinde çalışır.
 
    - **Server** uygulamasını başlatın:
      ```bash
      cd ../server
      node --watch server.js
      ```
-     Bu komut, Node.js uygulamanızı başlatır ve değişiklikler yapıldığında otomatik olarak yeniden başlatır.
+     Bu komut, Node.js uygulamanızı başlatır, değişiklikler yapıldığında otomatik olarak yeniden başlatır ve [http://localhost:5001](http://localhost:5001) adresinde çalışır.
 
 ---
 
