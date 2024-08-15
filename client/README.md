@@ -16,11 +16,15 @@ Uygulama içerisinde estetik görünümü sağlamak adına ana sayfaya overflow-
 
 Örnek olarak uçuşları listeleyebilmek için tarihlere göre bazı IATA kodları;
 
-#### 08/17/2024 : PMI - AMS / ZTH - AMS / LCA - AMS / GRO - AMS / VLC - AMS / LCA - AMS / HER - AMS
+#### 08/17/2024
+PMI - AMS / ZTH - AMS / LCA - AMS / GRO - AMS / VLC - AMS / LCA - AMS / HER - AMS
 
-#### 08/18/2024 : AMS - VCP / LHR - AMS / HER - AMS / LPA - AMS / OLB - AMS / PDL - AMS / VCP - AMS
+#### 08/18/2024
+AMS - VCP / LHR - AMS / HER - AMS / LPA - AMS / OLB - AMS / PDL - AMS / VCP - AMS
 
-#### 08/25/2024 : PFO - AMS / LHR - AMS / GRO - AMS / HER - AMS / LPA - AMS / OLB - AMS / PDL - AMS
+#### 08/25/2024
+PFO - AMS / LHR - AMS / GRO - AMS / HER - AMS / LPA - AMS / OLB - AMS / PDL - AMS
+
 
 ## Resim Galerisi
 
