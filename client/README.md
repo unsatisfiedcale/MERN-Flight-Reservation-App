@@ -4,7 +4,8 @@
 
 Bu projede MERN (MongoDB, Express.js, React.js, Node.js) teknolojileri kullanılarak Schipol Havalimanına ait API kullanılarak uçuşlar listelenmektedir.
 Estetik ve kullanıcı dostu bir arayüz oluşturmak için Tailwind CSS, Ant Design, Material UI, Day.js, FontAwesome ve SweetAlert kullanılmıştır.
-IATA ve Airlines kodlarına yönelik format işlemleri için çeşitli JSON türü dış kaynaklardan yararlanılmıştır.
+IATA ve Airlines kodlarına yönelik format işlemleri için çeşitli JSON türü dış kaynaklardan yararlanılmıştır. API'nin düzgün çalıştığını test etmek için Postman kullanılmıştır.
+
 
 ## 🚀 Proje Açıklaması
 
