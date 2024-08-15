@@ -1,4 +1,83 @@
-# Getting Started with Create React App
+# Flight-Reservation-App
+
+## 🚀 Kullanılan Teknolojiler
+
+Bu projede MERN (MongoDB, Express.js, React.js, Node.js) teknolojileri kullanılarak Schipol Havalimanına ait API kullanılarak uçuşlar listelenmektedir.
+Estetik ve kullanıcı dostu bir arayüz oluşturmak için Tailwind CSS, Ant Design, Material UI, Day.js, FontAwesome ve SweetAlert kullanılmıştır.
+IATA ve Airlines kodlarına yönelik format işlemleri için çeşitli JSON türü dış kaynaklardan yararlanılmıştır.
+
+## 🚀 Proje Açıklaması
+
+Uygulama içerisinde uçuşlar API'nin sunduğu IATA Kodlarıyla server tarafından yapılan istek sonucunda tarih ve hareket yönüne göre filtrelenebilmektedir. Filtrelenen bu uçuşlar aynı zamanda uçuşların destinations kodlarına göre listelenmektedir. Listelenen uçuşların havaalanlarına yönelik IATA kodları dönüştürülerek havaalanlarının ismiyle uçuş kartı bileşenine eklenmiştir. Uçuş kartında, ilgili uçuşa yönelik kalkış, iniş, uçuş süresi, hava yolu şirketi, havaalanının IATA kodu, yer almaktadır. İlgili uçuşa yönelik detaylar da görüntülenmektedir. Uçuşlara yönelik ek filtreleme seçeneklerinde, hava yolu şirketlerine göre filtreleme işlevi bulunmaktadır. Sayfa içerisinde hareketli iconlar ve loading animasyonları'da bulunmaktadır. İlgili uçuşun Book Flight buttonu uçuşlarım sayfasına yönlendirir ve uçuş veri tabanına yüklenir. Yönlendirilen uçuşlarım sayfasında veri tabanından alınan, kullanıcıya ait tüm uçuşlar listelenir. Kullanıcıya ait listelenen uçuş kartında uçuşa ait bilgiler ve detayları yer almaktadır. Uçuşlar kullanıcının tercihiyle, yapılacak delete işlemi sonucunda veri tabanından silinebilir.
+
+## 🚀 Uygulamayı Deneme
+
+Uygulama içerisinde estetik görünümü sağlamak adına ana sayfaya overflow-hidden özelliği eklenmiştir. Bu alanı small ekran görünümü için kaldırmanız gerekir. Kaldırmak isterseniz pages/HomePage.jsx içerisinde yorum satırıyla çevrelenmiş kod alanını kaldırabilirsiniz. 
+
+Örnek olarak uçuşları listeleyebilmek için tarihlere göre bazı IATA kodları;
+
+08/17/2024 : PMI - AMS / ZTH - AMS / LCA - AMS / GRO - AMS / VLC - AMS / LCA - AMS / HER - AMS
+08/18/2024 : AMS - VCP / LHR - AMS / HER - AMS / LPA - AMS / OLB - AMS / PDL - AMS / VCP - AMS
+08/25/2024 : PFO - AMS / LHR - AMS / GRO - AMS / HER - AMS / LPA - AMS / OLB - AMS / PDL - AMS
+
+## Resim Galerisi
+
+Aşağıda projede kullanılan 16 resmi görebilirsiniz:
+
+| ![1](images/1.png) | ![2](images/2.png) | ![3](images/3.png) | ![4](images/4.png) |
+| ------------------ | ------------------ | ------------------ | ------------------ |
+| ![5](images/5.png) | ![6](images/6.png) | ![7](images/7.png) | ![8](images/8.png) |
+| ![9](images/9.png) | ![10](images/10.png) | ![11](images/11.png) | ![12](images/12.png) |
+| ![13](images/13.png) | ![14](images/14.png) | ![15](images/15.png) | ![16](images/16.png) |
+
+## 🚀 Proje Kurulumu ve Çalıştırma
+
+1. **Projeyi İndirme:**
+   - Repositoriyi bilgisayarınıza klonlayın:
+     ```bash
+     git clone https://github.com/kullanici-adiniz/Flight-Reservation-App.git
+     ```
+   - Proje dizinine girin:
+     ```bash
+     cd Flight-Reservation-App
+     ```
+
+2. **Client ve Server Kurulumu:**
+   - `client` dizinine gidin:
+     ```bash
+     cd client
+     ```
+   - Gerekli bağımlılıkları yükleyin:
+     ```bash
+     npm install
+     ```
+   - `server` dizinine gidin:
+     ```bash
+     cd ../server
+     ```
+   - Gerekli bağımlılıkları yükleyin:
+     ```bash
+     npm install
+     ```
+
+3. **Uygulamayı Başlatma:**
+   - **Client** uygulamasını başlatın:
+     ```bash
+     cd client
+     npm start
+     ```
+     Bu komut, React uygulamanızı geliştirme modunda başlatır ve [http://localhost:5001](http://localhost:5001) adresinde çalışır.
+
+   - **Server** uygulamasını başlatın:
+     ```bash
+     cd ../server
+     node --watch server.js
+     ```
+     Bu komut, Node.js uygulamanızı başlatır ve değişiklikler yapıldığında otomatik olarak yeniden başlatır.
+
+---
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
